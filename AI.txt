@@ -33,6 +33,9 @@ DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,signalr.net
 
+# Domain keyword match
+DOMAIN-KEYWORD,logosear,AI
+
 # OpenAI
 DOMAIN,sora.com
 DOMAIN,browser-intake-datadoghq.com
