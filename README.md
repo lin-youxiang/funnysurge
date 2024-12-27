@@ -1,13 +1,13 @@
 ```
 # AI
-RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/main/AI.txt,AI
+RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/main/rules/AI.txt,AI
 
 # DIRECT
-RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/main/DIRECT.txt,DIRECT
+RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/main/rules/DIRECT.txt,DIRECT
 
 # PROXY
-RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/main/PROXY.txt,Proxy
+RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/main/rules/PROXY.txt,Proxy
 
 # REJECT
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/reject.txt,REJECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/rules/reject.txt,REJECT
 ```
