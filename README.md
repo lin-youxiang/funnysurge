@@ -9,5 +9,5 @@ RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/ma
 RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/main/rules/PROXY.txt,Proxy
 
 # REJECT
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/rules/reject.txt,REJECT
+RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/main/rules/REJECT.txt,REJECT
 ```
