@@ -117,11 +117,11 @@ def classify_proxies(proxy_lines):
     """
     # Predefined common region keywords, can be extended
     area_keywords = {
-        "HK":   [r'Hong Kong', r'HK', r'HKG'],
-        "SGP":  [r'Singapore', r'SGP'],
-        "TW":   [r'Taiwan', r'TW', r'TWN'],
-        "JP":   [r'Japan', r'JP', r'JPN'],
-        "USA":  [r'United States', r'USA', r'US'],
+        "HK":   [r'香港', 'Hong Kong', r'HK', r'HKG'],
+        "SGP":  [r'新加坡', 'Singapore', r'SGP'],
+        "TW":   [r'台湾', 'Taiwan', r'TW', r'TWN'],
+        "JP":   [r'日本', 'Japan', r'JP', r'JPN'],
+        "USA":  [r'美国', 'United States', r'USA', r'US'],
     }
 
     # Classification results
