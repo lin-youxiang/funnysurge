@@ -5,6 +5,34 @@ import sys
 import os
 import re
 
+def clean_proxy_lines(proxy_lines: list) -> list:
+    """
+    移除包含特定关键词的列表项
+
+    Args:
+        proxy_lines: 输入的列表
+
+    Returns:
+        list: 处理后的列表，不包含特定关键词的项
+    """
+    # 定义需要过滤的关键词
+    keywords = [
+        r'剩余流量',
+        r'套餐到期',
+        r'距离下次重置剩余',
+        r'官网',
+        r'节点异常',
+        r'刷新'
+    ]
+
+    # 使用列表推导式过滤掉包含关键词的项
+    cleaned_lines = [
+        line for line in proxy_lines
+        if not any(keyword in line for keyword in keywords)
+    ]
+
+    return cleaned_lines
+
 def parse_surge_conf(conf_path):
     """
     Parse the Surge configuration file to get all node lines from the [Proxy] section.
@@ -237,6 +265,7 @@ def main():
 
     print(f"Parsing file: {conf_path}")
     proxy_lines = parse_surge_conf(conf_path)
+    proxy_lines = clean_proxy_lines(proxy_lines)
     print(f"Found {len(proxy_lines)} nodes in [Proxy] section")
 
     if not proxy_lines:
