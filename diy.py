@@ -287,11 +287,9 @@ def main():
     # Generate [Proxy Group] text
     groups_text = generate_proxy_group_text(classified)
 
-    # Generate diy.conf
-    out_dir = os.path.dirname(conf_path)
-    diy_path = os.path.join(out_dir, "diy.conf")
-    with open(diy_path, 'w', encoding='utf-8') as f:
-        f.write(groups_text)
+# Generate diy.conf
+with open('diy.conf', 'w', encoding='utf-8') as f:
+    f.write(groups_text)
 
     print(f"\nCustom policy groups generated to: {diy_path}\n")
 
