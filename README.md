@@ -1,5 +1,7 @@
 # Surge Configuration Guide
 
+English | [简体中文](README_zh.md)
+
 ## Installation Steps
 
 ### 1. Generate Proxy Groups
