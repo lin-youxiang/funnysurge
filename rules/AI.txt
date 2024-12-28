@@ -34,7 +34,7 @@ DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,signalr.net
 
 # Domain keyword match
-DOMAIN-KEYWORD,logosear,AI
+DOMAIN-KEYWORD,logosear
 
 # OpenAI
 DOMAIN,sora.com
