@@ -23,14 +23,23 @@ Add the following rule sets to the `[Rule]` section of your Surge configuration 
 RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/main/rules/AI.txt,AI
 
 # Direct Access
-RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/main/rules/DIRECT.txt,DIRECT
+RULE-SET,SYSTEM,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/private.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/icloud.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/apple.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/google.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/direct.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/cncidr.txt,DIRECT
+RULE-SET,LAN,DIRECT
 
 # Proxy Rules
 DOMAIN-KEYWORD,githubusercontent,Proxy
-RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/main/rules/PROXY.txt,Proxy
+DOMAIN-KEYWORD,googleadservices,Proxy
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/proxy.txt,Proxy
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/telegramcidr.txt,Proxy
 
 # Ad Blocking
-RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/main/rules/REJECT.txt,REJECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/reject.txt,REJECT
 ```
 
 ## Rule Set Description

@@ -23,14 +23,23 @@ python3 "./diy.py" '/Users/{你的用户名}/Library/Application Support/Surge/P
 RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/main/rules/AI.txt,AI
 
 # 直接访问
-RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/main/rules/DIRECT.txt,DIRECT
+RULE-SET,SYSTEM,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/private.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/icloud.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/apple.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/google.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/direct.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/cncidr.txt,DIRECT
+RULE-SET,LAN,DIRECT
 
 # 代理规则
 DOMAIN-KEYWORD,githubusercontent,Proxy
-RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/main/rules/PROXY.txt,Proxy
+DOMAIN-KEYWORD,googleadservices,Proxy
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/proxy.txt,Proxy
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/telegramcidr.txt,Proxy
 
 # 广告拦截
-RULE-SET,https://raw.githubusercontent.com/lin-youxiang/funnysurge/refs/heads/main/rules/REJECT.txt,REJECT
+RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/reject.txt,REJECT
 ```
 
 ## 规则集说明
