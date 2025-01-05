@@ -287,11 +287,11 @@ def main():
     # Generate [Proxy Group] text
     groups_text = generate_proxy_group_text(classified)
 
-# Generate diy.conf
-with open('diy.conf', 'w', encoding='utf-8') as f:
-    f.write(groups_text)
+    # Generate diy.conf
+    with open('diy.conf', 'w', encoding='utf-8') as f:
+        f.write(groups_text)
 
-    print(f"\nCustom policy groups generated to: {diy_path}\n")
+        print(f"\nCustom policy groups generated to: {diy_path}\n")
 
 
 if __name__ == "__main__":
