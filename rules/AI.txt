@@ -95,3 +95,7 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
+
+# X
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
