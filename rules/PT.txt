@@ -45,5 +45,3 @@ DOMAIN-SUFFIX,hspt.club
 DOMAIN-SUFFIX,nicept.net
 DOMAIN-SUFFIX,kamept.com
 DOMAIN-SUFFIX,fsm.name
-
-# tracker

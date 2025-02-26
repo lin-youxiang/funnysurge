@@ -99,3 +99,6 @@ DOMAIN-KEYWORD,generativelanguage
 # X
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
+
+# OpenRouter
+DOMAIN-SUFFIX,openrouter.ai
