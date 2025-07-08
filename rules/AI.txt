@@ -103,3 +103,6 @@ DOMAIN-SUFFIX,x.ai
 
 # OpenRouter
 DOMAIN-SUFFIX,openrouter.ai
+
+# Cursor
+DOMAIN-KEYWORD,cursor
